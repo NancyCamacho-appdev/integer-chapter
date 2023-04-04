@@ -21,3 +21,5 @@
 # "Nice! You were born in approximately 2013."
 
 p "How old are you?"
+n = gets.to_i
+p "Nice! You were born in approximately #{(2023 - n)}. You're old!" 
